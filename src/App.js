@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <GreetingsList title="Greetings to:">
-        <Greeting name="Eli"/>
-        <Greeting name="JaviScript"/>
+        <Greeting text='Hola!' name="Eli" username="elisendamonserrat"/>
+        <Greeting name="JaviScript" username="javisastre"/>
         <p>This is a built in JSX p tag</p>
       </ GreetingsList>
     </div>
